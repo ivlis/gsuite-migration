@@ -42,5 +42,22 @@ Google OAuth | N | N/A | N/A | Y
 
 # Execution Plan
 
-  - [ ] Account clean up.
-  - [ ] 
+
+  - [ ] Register a non-Gmail account if you do not have one. There are plenty of providers out there, live360, zoho, aol, etc. This account will be used for an email forwarder registration, gmail recovery, and other critical stuff. In general, you should not give this account to other people.
+  - [ ] Register a GMail account your are going to migrate to. It is better if the account exists for some time before you start messing around with transition.
+  - [ ] Gmail clean up. The less stuff you need to move between accounts - the better.
+    - [ ] Delete old emails you do not care anymore. Notifications from social media, promo codes circa 2011, etc, this adds up to tens of thousands of emails. Use gmail filters to delete them from the GSuite account.
+    - [ ] Look for large attachments you don't need to carry over. Delete theese emails.
+    - [ ] Delete irrelevant contacts.
+  - [ ] Register for Cloudfare. Use the non-Gmail email for registration.
+  - [ ] Ask for email forwarder beta.
+  - [ ] Transfer your domain Cloundfare. For now preserve Google MX records
+  - [ ] Register for an smtp forwarder (i.e. mxroute). This costs money. I see it as a temporary solution until (i) Cloudfare creates such service (ii) good self-hosted solution emerges (unlikely)
+
+
+
+
+
+
+
+
