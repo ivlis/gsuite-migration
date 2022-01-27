@@ -8,6 +8,8 @@ If a GSuite account remains unpaid Google will convert the account to a "Google 
 
 This guide aims to document a migration process out of GSuite Google accounts to free Google accounts.
 
+Google is conducting a survey among Legacy GSuite users [here](https://fcsn-org.zoom.us/meeting/register/tZUpduisqT4oGtK7bnGXGbKqmM6EFsb_21Nd?fbclid=IwAR21ZZNL1fDuc1IG5LB6sU2W1kMz_zitMTStlgClsIOenUhU8-igNhNstoQ). There is slight hope that Google will either create a personal plan or provide a migration tool.
+
 # Migration
 
 |Service|Migratable?| Action | Migration tools|Cloud Identity| Notes|
@@ -47,7 +49,7 @@ Google OAuth | N | N/A | N/A | Y
   - [ ] Register a GMail account your are going to migrate to. It is better if the account exists for some time before you start messing around with transition.
   - [ ] Gmail clean up. The less stuff you need to move between accounts - the better.
     - [ ] Delete old emails you do not care anymore. Notifications from social media, promo codes circa 2011, etc, this adds up to tens of thousands of emails. Use gmail filters to delete them from the GSuite account.
-    - [ ] Look for large attachments you don't need to carry over. Delete theese emails.
+    - [ ] Look for large attachments you don't need to carry over. Delete these emails.
     - [ ] Delete irrelevant contacts.
   - [ ] Register for Cloudfare. Use the non-Gmail email for registration.
   - [ ] Ask for email forwarder beta.
